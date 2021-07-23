@@ -7,7 +7,7 @@ function App() {
 
   useEffect(() => {
     console.log('useEffect: Lee Moon say!')
-  }, []);
+  }, [counter]);
 
   const handleIncrement = () => setCounter(counter + 1);
   const handleDecrement = () => setCounter(counter - 1);
